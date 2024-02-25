@@ -5,8 +5,8 @@ body {
 }
 
 .nav-bar {
-    background-color: rgb(66, 39, 26); /* Set your desired background color */
-    color: rgb(66, 39, 26); /* Set your desired text color */
+    background-color: rgb(66, 39, 26); 
+    color: rgb(66, 39, 26); 
     text-align: center;
     padding: 5px 5px;
     margin: 0;
@@ -213,6 +213,7 @@ h1 {
     border: none;
     font-size: 16px;
     width: 100%;
+    margin-right: 6%;
     display: block;
 }
 
