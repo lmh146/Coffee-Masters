@@ -32,8 +32,8 @@ body {
 
 .page {
     display: grid;
-    row-gap: 20px;
-    column-gap: 50px;
+    row-gap: 30px;
+    column-gap: 0px;
     width: 100%;
     grid-template-areas:
     "order-box info-box"
@@ -52,8 +52,9 @@ h1 {
     color: rgb(230, 222, 176);
 } */
 
-h2 {
+.box-label {
     color:rgb(143, 81, 10);
+    font-weight: lighter;
 }
 
 .box {
@@ -61,7 +62,7 @@ h2 {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 90%;
     box-shadow:black;
     
 }
@@ -74,6 +75,8 @@ h2 {
 .item {
     border-bottom: 1px solid #cccccc; 
     padding-bottom: 10px 0; 
+    border-color: #f1c098;
+    border-width: 2px;
 
     display: grid;
     grid-template-areas: 
@@ -90,29 +93,44 @@ h2 {
 
 .item-quantity {
     grid-area: item-quantity;
+    
 }
 
 .item-name {
     grid-area: item-name;
     padding-left: 5px;
+    font-weight: bold;
 
 }
 
 .item-price {
     grid-area: item-price;
     padding-left: 50px;
+    font-weight: bold;
 }
 
 .sub-items {
     grid-area: sub-items;
     list-style: none;
     padding-left: 0px;
+    padding-bottom: 10px;
+    color: #c7a488;
+}
+
+.info-box {
+    margin-left: 0;
+}
+
+.box-label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .input-user {
     background-color: #fae9db; 
-    color: white; 
-    padding: 10px 0px; 
+    color: rgb(0, 0, 0); 
+    padding: 8px 0px; 
     border-radius: 20px; 
     border: 10%;
     border-color: #8B4513;
@@ -121,8 +139,31 @@ h2 {
     display: block;
 }
 
-.input-user.input-user::before {
-    text-align: left;
+.input-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.input-tag {
+    background-color: #fae9db;
+    color: #8B4513;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -8px;
+    padding: 0 4px;
+}
+
+#card {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+#ccv {
+    margin-top: 10px;
+    width: 50%;
 }
 
 
@@ -151,6 +192,10 @@ h2 {
     font-size: 16px;
 } */
 
+.final-total {
+    font-weight: bolder;
+}
+
 .place-order {
     background-color: #8B4513; 
     color: white; 
@@ -162,7 +207,5 @@ h2 {
     display: block;
 }
 
-.totals {
-    width: 100%;
-    display: block;
-}
+
+
