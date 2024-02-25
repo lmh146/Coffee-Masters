@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Masters</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
 </head>
 <body>
     <nav class="nav-bar">
         <h1 class="branding">
             <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" 
             alt="logo" class="logo">
-            " Coffee Masters "
+            Coffee Masters
         </h1>
     </nav>
     <div class="page">
-        <section class="orders">
-            <h2 class="box">ITEMS</h2>
+        <section class="order-box box">
+            <h2 class="box-label">ITEMS</h2>
             <ul class="items">
                 <li class="item">
                     <div class="item-quantity">1x</div>
@@ -45,28 +51,28 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <div class="name">
-                <h2 class="box">NAME</h2>
-                <div class="input">
-                    <!-- label -->
-                    <!-- input -->
+        <section class="info-box">
+            <div class="name-box box">
+                <h2 class="box-label">NAME</h2>
+                <div class="input-box">
+                    <label class="input-tag" for="name">Name for order</label>
+                    <input type="text" class="input-user" id="name">
                 </div>
             </div>
-            <div>
-                <h2 class="box">PAYMENT</h2>
-                <div class="input">
-                    <!-- label -->
-                    <!-- input -->
+            <div class="payment-box box">
+                <h2 class="box-label">PAYMENT</h2>
+                <div class="input-box">
+                    <label class="input-tag" for="ccn">Card Number</label>
+                    <input type="text" class="input-user" id="card">
                 </div>
-                <div class="input">
-                    <!-- label -->
-                    <!-- input -->
+                <div class="input-box">
+                    <label class="input-tag" for="ccvn">CCV Number</label>
+                    <input type="text" class="input-user" id="ccv">
                 </div>
             </div>
         </section>
         <section class="totals">
-            <table class="table">
+            <table class="table-tots">
                 <tr>
                     <td>Subtotal:</td>
                     <td>$19.27</td>
