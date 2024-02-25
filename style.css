@@ -26,7 +26,7 @@ body {
 
 .logo {
     max-height: 30px;
-    margin-right: 5px; /* Adjust as needed for spacing between the logo and text */
+    margin-right: 5px; 
 }
 
 
@@ -72,8 +72,8 @@ h2 {
 }
 
 .item {
-    border-bottom: 1px solid #cccccc; /* Set your desired border color */
-    padding-bottom: 10px 0; /* Add spacing between items if needed */
+    border-bottom: 1px solid #cccccc; 
+    padding-bottom: 10px 0; 
 
     display: grid;
     grid-template-areas: 
@@ -84,7 +84,7 @@ h2 {
 
 
 .item:last-child {
-    border-bottom: none; /* Remove border for the last item */
+    border-bottom: none; 
 }
 
 
@@ -110,11 +110,10 @@ h2 {
 }
 
 .input-user {
-    background-color: #fae9db; /* Set the color you want */
-    color: white; /* Set your desired text color */
-    padding: 10px 0px; /* Adjust the padding as needed */
-    border-radius: 20px; /* Set the border-radius to make the edges rounded */
-    cursor: text;
+    background-color: #fae9db; 
+    color: white; 
+    padding: 10px 0px; 
+    border-radius: 20px; 
     border: 10%;
     border-color: #8B4513;
     font-size: 16px;
@@ -153,11 +152,10 @@ h2 {
 } */
 
 .place-order {
-    background-color: #8B4513; /* Set the color you want */
-    color: white; /* Set your desired text color */
-    padding: 10px 0px; /* Adjust the padding as needed */
-    border-radius: 20px; /* Set the border-radius to make the edges rounded */
-    cursor: pointer;
+    background-color: #8B4513; 
+    color: white; 
+    padding: 10px 0px; 
+    border-radius: 20px; 
     border: none;
     font-size: 16px;
     width: 100%;
@@ -166,4 +164,5 @@ h2 {
 
 .totals {
     width: 100%;
+    display: block;
 }
