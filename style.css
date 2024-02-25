@@ -136,7 +136,7 @@ h1 {
     padding: 8px 0px; 
     border-radius: 20px; 
     border: 10%;
-    border-color: #8B4513;
+    border-color: #774a2a;
     font-size: 16px;
     width: 100%;
     display: block;
@@ -146,6 +146,7 @@ h1 {
     position: relative;
     display: inline-block;
     width: 100%;
+    margin-bottom: 20px;
 
 }
 
@@ -177,12 +178,17 @@ h1 {
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    grid-area: totals;
 }
 
 .table-tots {
     width: 100%;
     max-width: 500px;
     margin-bottom: 30px;
+    padding: 10px;
+}
+
+.table-tots td {
     padding: 10px;
 }
 
@@ -200,8 +206,8 @@ h1 {
 }
 
 .place-order {
-    background-color: #8B4513; 
-    color: white; 
+    background-color: #e9b692; 
+    color: rgb(0, 0, 0); 
     padding: 10px 0px; 
     border-radius: 20px; 
     border: none;
