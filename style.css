@@ -74,7 +74,8 @@ h1 {
 
 .item {
     border-bottom: 1px solid #cccccc; 
-    padding-bottom: 10px 0; 
+    padding-bottom: 10px 10px;
+    padding-top: 10px; 
     border-color: #f1c098;
     border-width: 2px;
 
@@ -88,6 +89,7 @@ h1 {
 
 .item:last-child {
     border-bottom: none; 
+    padding-bottom: 40px;
 }
 
 
@@ -113,8 +115,9 @@ h1 {
     grid-area: sub-items;
     list-style: none;
     padding-left: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     color: #c7a488;
+    font-size: 14px;
 }
 
 .info-box {
